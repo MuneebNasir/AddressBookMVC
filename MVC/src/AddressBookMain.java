@@ -8,8 +8,7 @@ public class AddressBookMain
     public static void main(String[] args) {
         BuddyModel model_buddyInfo = new BuddyModel();
         AddressBookView view_addressBook = new AddressBookView();
-        BookController book_controller = new BookController(model_buddyInfo,view_addressBook );
-        book_controller.addMenuListeners();
+        BookController book_test = new BookController(model_buddyInfo,view_addressBook );
     }
 
 
